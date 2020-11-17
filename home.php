@@ -8,15 +8,15 @@ get_header();
 <div class="lead">
     <img class='ronde' src="img/CecilemsprofilCarre.jpg" alt="photo Cecilemsprofil">
     <div class="guillemet">
-        <img class="guillemetg" src="img/quote-right-solid-jaunep.png" alt="guillemet">
+        <img class="guillemetg" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/quote-left-solid-jaune.png" alt="guillemet">
         <p>
             Communicante diplômée d'école de commerce, traductrice au parcours axé sur l'international, je me forme désormais à la conception de sites web pour m'ouvrir à de nouvelles perspectives orientées Projet numérique.
         </p>
-        <img class="guillemetd" src="img/quote-right-solid-jaunep.png" alt="guillemet">
+        <img class="guillemetd" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/quote-right-solid@2x.png" alt="guillemet">
     </div>
     <img class="signature" src="img/Signature CMS jaune.png" alt="signature jaune">
     <h3>Chargée de projet web, bilingue anglais</h3>
-    <a class="btn" href="/img/CV_CecileMS_2020.pdf">Télécharger mon CV</a>
+    <a class="btn" href="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/CV_CecileMS_2020.pdf">Télécharger mon CV</a>
 </div>
 
 <section class="qualites">
@@ -97,15 +97,15 @@ get_header();
 <section class="portfolio">
 
         <article>
-            <img class='blogs' src="img/Merveille_vermillon.JPG" alt="velo">
+            <img class='blogs' src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/Merveille_vermillon.jpg" alt="velo">
             <p>Voir mon futur site de photo</p>
         </article>
         <article>
-            <img class='blogs' src="img/kangaroo.jpg" alt="kangaroo">
+            <img class='blogs' src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/IMG_5559-scaled.jpg" alt="kangaroo">
             <p>Voir mon futur blog de voyage en Australie</p>                    
         </article>
         <article>
-            <img class='blogs' src="img/PeintureConnexion.JPG" alt="peinture">
+            <img class='blogs' src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/PeintureConnexion.jpg" alt="peinture">
             <p>Voir mon futur site de peinture</p>
          </article>
 
@@ -178,19 +178,13 @@ get_header();
 
         </article>
         <article>
-            <h4>2001 | 2002</h4> 
+            <h4>1999 | 2002</h4> 
             <h2>ASSISTANTE MARKETING</h2>
                  <h3>OBJECTIF LUNE Montréal</h3>
                     <p>Création de documentation commerciale et technique, newsletter, site web, charte graphique, packaging, Stratégie de comm & lancement de logiciel</p> 
 
         </article>
-        <article>
-            <h4>1999 | 2000</h4> 
-            <h2>ASSISTANTE MARKETING</h2>   
-                <h3>OSIRIS Montréal</h3>
-                    <p>Rédaction d’outils d’aide à la vente : brochures, présentations, site internet, publicités, articles pour la presse, Organisation de grands salons</p>
-
-        </article>                         
+                      
 </section>
 
 <section>
