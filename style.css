@@ -1,0 +1,683 @@
+/*
+Theme Name: Portfolio Cécile Maillard-Salin
+Theme URI: 
+Author: Cécile Maillard-Salin
+Author URI: 
+Description: Le thème test du portfolio
+Version: 0.1
+Tags: communicante, dévelopeuse web, bilingue anglais, autonome, créative 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  --text-color: #565555;
+  --dark-color: #707070;
+  --medium-color: #b4b4b4;
+  --light-color: #e8e8e8;  
+  --tonic-color: #fedb3b;
+
+  --br: 200px;
+}
+html {
+    font-size: 62.5%;
+  }
+  
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem; 
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+
+/* les images *****************************************/
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0px 0;
+  object-fit: cover;
+  object-position: 70%;
+  }
+
+.logo {
+  margin: 20px 0 10px 0;
+  margin-left: auto;
+  margin-right: auto;
+} 
+
+
+.guillemet{
+  display: flex;
+}
+
+.guillemetd,
+.guillemetg{
+  height: 20px;
+  color: var(--tonic-color);
+
+}
+
+.guillemetg {
+  transform: rotateY(180deg);
+  margin-left: 40px;
+}
+
+.guillemetd {
+  bottom: 85px;
+  right: 10vw;
+  display: flex;
+  align-self: flex-end;
+  margin-right: 40px;
+}
+
+.ronde {
+  height: 180px;
+  margin: 10px 0 0 0;
+  border-radius: var(--br);
+}
+
+.signature {
+  height: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blogs{
+  position:relative;
+  width:200px; 
+  height:200px;
+  overflow:hidden;
+}
+svg {
+  fill:var(--tonic-color);
+}
+
+
+/******** la structure *******************/
+
+h1 {
+font-size: 2em; 
+color : white;
+line-height: 1;
+font-weight: 200;
+text-transform: uppercase;
+background-color: var(--dark-color);
+padding: 10px;
+text-align: center;
+border-top: solid 5px var(--tonic-color);
+margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 10px 5px 5px 15px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--medium-color);
+  margin: 0 15px;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-color);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0 70px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+p {
+  padding: 0px 10px 5px 15px;
+  margin-top: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+/* Bug IOS
+/* => L'overflow doit être appliqué sur l'élément body ET html
+/* pour faire disparaître le scroll sur safari IOS
+*/
+.noscroll,
+.noscroll body {
+  overflow: hidden;
+}
+
+body > .lead,
+body > footer {
+  background-color: var(--dark-color);
+  color: white;
+  font-size: 1.2rem;
+}
+
+
+body > footer a {
+  color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+}
+
+header .container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* ------- HEADER -------- *********************************/
+/*      les menus *********************/
+
+nav ul {
+  
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+  font-weight: 700;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+nav ul li {
+  margin-left: 20px;
+
+}
+
+header nav ul {
+  text-transform: uppercase;
+
+}
+
+nav a:hover {
+  color: var(--tonic-color);
+}
+
+
+
+.nav-toggle {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-toggle-bar,
+.nav-toggle-bar::before,
+.nav-toggle-bar::after {
+  content:"";
+  background-color: var(--text-color);
+  width: 100%;
+  height: 2.5px;
+  position: absolute;
+  transition: all .4s ease-in-out;
+}
+
+.nav-toggle-bar::before {
+  top: -10px;
+}
+
+.nav-toggle-bar::after {
+  top: 10px;
+}
+
+/* Transitions Icone de menu */
+.nav-toggle.active .nav-toggle-bar {
+  transform: rotate(135deg);
+}
+.nav-toggle.active .nav-toggle-bar:before,
+.nav-toggle.active .nav-toggle-bar:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+
+  
+/* Menu dans son état initial mais fermé */
+.menu {     
+  visibility: hidden;
+  transform: translateX(100vw);
+  position: fixed;
+  background-color: var(--light-color);
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 1;
+  transition: all .3s ease-in-out;
+}
+
+/* Menu dans son état initial mais ouvert */ 
+.menu.open {
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.menu.open li {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.menu.open li:nth-child(n+1) { transition-delay: .3s;}
+.menu.open li:nth-child(n+2) { transition-delay: .4s;}
+.menu.open li:nth-child(n+3) { transition-delay: .5s;}
+.menu.open li:nth-child(n+4) { transition-delay: .6s;}
+.menu.open li:nth-child(n+5) { transition-delay: .7s;}
+
+
+
+.menu ul {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2.1rem;
+}
+.menu ul li {
+  margin-bottom: 30px;
+  transform: translateX(30px);
+  opacity: 0;
+  transition: all .4s ease;
+}
+
+
+.container {
+  flex-direction: column;
+}
+
+
+
+
+/*              le lead ********************/
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tonic-color);
+  position: relative;
+}
+
+.lead h3 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+  color: white;
+  text-align: center;
+}
+
+.lead p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 15px 0px 15px 0px;
+  max-width: 700px;
+}
+
+
+.btn {
+  background-color: var(--light-color);
+  text-transform: uppercase;
+  padding: 15px 30px;
+  margin: 10px 0 -25px 0;
+  letter-spacing: 0.1rem;
+  border-radius: var(--br);
+  display: inline-block;
+  justify-content: center;
+}
+
+.btn:hover  {
+  background: var(--text-color);
+  color: var(--tonic-color);
+}
+
+
+/************** ------- MAIN -------- ***********************************/
+
+main {
+  padding: 20px 0;
+}
+.qualites{
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+
+}
+.qualite {
+
+  min-width: 200px;
+}
+
+.devarticle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 50vh;
+}
+
+
+.developpement article {
+  background-color: var(--light-color);
+  height: 130px;
+  width: 130px;
+  border-radius: 20px;
+  margin : 10px;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  flex: none;
+  justify-content: center;
+}
+
+.developpement p{
+  margin: 0px;
+}
+
+.developpement h3 {
+  font-weight: 800;
+  padding: 5px;
+  justify-content: center;
+}
+.competence ul {
+  list-style: none;
+  padding-inline-start: 15px;
+}
+
+.metier {
+  background-image: url(/img/cogs-solidjaunedb.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  flex: 1;
+}
+
+.metier p {
+  color: var(--text-color);
+  opacity: 1;
+}
+
+.experience{
+  justify-content: center;
+}
+
+.experience article {
+  background-color: var(--light-color);
+  background-position: center;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 10px 10px 10px 0;
+  box-shadow: 5px 5px ;
+  font-size: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 250px;
+  max-width: 300px;
+  flex-direction: column;
+
+
+}
+.experience h3{
+  text-align: left;
+}
+
+.portfolio {
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.formation{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formation article {
+  margin: 10px 10px;
+  min-width: 300px;
+}
+
+.formation h2 {
+  text-align: center;
+  border-top: solid 1px var(--light-color);
+  border-bottom: solid 1px var(--light-color);
+}
+
+.interet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.interet p {
+  background-color: var(--tonic-color);
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  margin : 5px;
+  padding: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.think {
+  text-align: right;
+  padding: 20px 20px 0 0;
+  line-height: 1;
+}
+.contactmail, 
+.adresse {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.adresse svg,
+.contactmail svg {
+  display: none;
+}
+
+.contact {
+  background-image: url(/img/photoMtbe.jpg);
+  background-size: cover;
+  background-position: top;  
+  color: white;
+  font-size: 1.8rem; 
+  line-height: 2;
+  margin-bottom: -30px;
+  display: block;
+
+  
+}
+
+.contact a,
+.adresse p{
+  color: white;
+
+  font-size: 1.8rem; 
+  line-height: 1.6;
+  padding: 0 15px 0 15px;
+  text-align: center;
+}
+
+
+
+.contact ul {
+  margin: 10px 0px;
+  list-style: none;
+  padding-inline-start: 30px;
+
+
+
+}
+
+.contact li{
+  display: table;
+  background-color: rgb(255,252,255, .7);
+  color: #565555;
+  font-weight: 600;
+  padding: 0 5px;
+  margin: 10px 0px;
+}
+
+
+
+
+.reseau{
+  margin: 10px 10px 0 10px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Solution alternative pour placer les articles les uns à coté des autres avec l'espace de gouttière entre chaque article.
+
+main .container {
+  justify-content: space-between;
+}
+main article {
+  width: calc((100% - 40px) / 3);
+} 
+*/
+
+
+/* ------- FOOTER -------- **************************************/
+
+footer .container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+footer p {
+  color: white;
+  padding: 0 15px 15px 15px;
+}
+
+footer h2 {
+  padding : 10px 0 0 0;
+}
+
+
+  /* Pour les écrans supérieurs ou égal à 601px *********************** */
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 4rem; /* équivaut à 40px */
+  }
+
+  p{
+    font-size: 1.4rem;
+  }
+
+  header .container {
+    align-items: flex-end;
+  }
+
+
+  .lead h2 {
+    font-size: 3.6rem;
+  }
+  .lead p {
+    font-size: 1.4rem;
+  }
+  
+
+  .guillemetd {
+    bottom: 85px;
+    right: 10vw;
+  }
+  
+  main article {
+    margin-right: 20px;
+  }
+
+
+  main article {
+    flex: 1;
+  }
+  
+  .competence {
+    display: flex;
+
+  }
+  .developpement{
+    flex:1;
+    margin-left: 40px;
+    min-width: 300px;
+
+  }
+  .devarticle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+  }
+  .devarticle p{
+    font-size: 1.2rem;
+  }
+
+  .experience{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .formation {
+    margin: 15px;
+    display: flex;
+
+  }
+  
+
+  .diplome{
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .professionnel{
+    flex: 1;
+
+  }
+  
+  .centredinteret{
+    flex: 1;
+    max-width: 300px;
+
+  }
+
+  
+  .contact {
+    background-image: url(/img/photoMtbePC.jpg);
+    background-size: cover;
+    background-position: top;  
+  }
+
+  .think {
+  font-size: 2.8rem;
+  }
+}
+
+
