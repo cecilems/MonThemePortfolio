@@ -16,7 +16,7 @@
     
     <header>
         <div class="container">
-            <img class="logo" src="img/Logo CMSExpertGris.svg" alt="logoCMS">
+            <img class="logo" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/Logo-Expert.png" alt="logoCMS">
             <div class="nav-toggle">
                 <div class="nav-toggle-bar"></div>
             </div>

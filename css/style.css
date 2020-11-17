@@ -50,7 +50,7 @@ img {
 }
 
 .guillemetg {
-  transform: rotateY(180deg);
+  
   margin-left: 40px;
 }
 
@@ -493,7 +493,7 @@ main {
 }
 
 .contact {
-  background-image: url(/img/photoMtbe.jpg);
+  background-image: url(http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/photoMtbe.jpg);
   background-size: cover;
   background-position: top;  
   color: white;
