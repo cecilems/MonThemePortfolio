@@ -6,7 +6,7 @@
     <title>Cécile Maillard-Salin Developeur web</title>
 
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 
 
 </head>
