@@ -195,13 +195,13 @@ get_header();
             <h2>Diplômes</h2>
             <article>
                 <h3>2020</h3>  
-                    <p>Développeur de site web et solutions mobiles pour objets connectés 
+                    <p><b>Développeur de site web et solutions mobiles pour objets connectés</b> 
                 Formation de 8 mois à Numérica Montbéliard en vue d'obtenir le 
                 titre professionnel de Développeur web et web mobile</p>
             </article>
             <article>
                 <h3>1999</h3>
-                    <p>École de Commerce ISEG Strasbourg [Institut Supérieur Européen de Gestion] Diplôme d’Expertise en Management et Affaires Internationales [niveau II — Maîtrise] Spécialisation marketing</p>
+                    <p><b>École de Commerce ISEG Strasbourg</b> [Institut Supérieur Européen de Gestion] <br/>Diplôme d’Expertise en Management et Affaires Internationales [niveau II — Maîtrise] Spécialisation marketing</p>
             </article>
             <article>
                 <h3>1998</h3>
