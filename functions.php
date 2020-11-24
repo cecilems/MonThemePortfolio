@@ -1,7 +1,7 @@
 <?php
 
 //init function for change files js
-add_action('init', 'jsScript');
+add_action('wp_head', 'jsScript');
 
 //change file javascript
 function jsScript()

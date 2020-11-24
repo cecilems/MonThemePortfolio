@@ -35,6 +35,7 @@ img {
   margin: 20px 0 10px 0;
   margin-left: auto;
   margin-right: auto;
+  max-height: 55px;
 } 
 
 
@@ -69,7 +70,7 @@ img {
 }
 
 .signature {
-  height: 35px;
+  height: 45px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -348,7 +349,7 @@ nav a:hover {
 /************** ------- MAIN -------- ***********************************/
 
 main {
-  padding: 20px 0;
+  padding: 0px 0 20px 0;
 }
 .qualites{
   padding-top: 20px;
@@ -578,7 +579,7 @@ footer h2 {
   /* Pour les écrans supérieurs ou égal à 601px *********************** */
 @media screen and (min-width: 601px) {
   h1 {
-    font-size: 4rem; /* équivaut à 40px */
+    font-size: 10rem; /* équivaut à 40px */
   }
 
   p{
@@ -593,16 +594,29 @@ footer h2 {
   .lead h2 {
     font-size: 3.6rem;
   }
+
+  .lead h3 {
+    font-size: 1.6rem;
+  }
+
   .lead p {
     font-size: 1.4rem;
   }
   
+  .logo {
+
+    max-height: 65px;
+  } 
 
   .guillemetd {
     bottom: 85px;
     right: 10vw;
   }
   
+  .signature {
+    height: 70px;
+}
+
   main article {
     margin-right: 20px;
   }
