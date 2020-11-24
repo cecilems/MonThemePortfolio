@@ -20,10 +20,12 @@
     
     <header>
         <div class="container">
+                        
             <img class="logo" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/LogoItalic.svg" alt="logoCMS">
+
             <div class="nav-toggle">
                 <div class="nav-toggle-bar"></div>
-            </div>
+            </div> 
             <nav class="menu">
                 <ul>
                     <li><a href="#idcompetences">Compétences</a></li>
