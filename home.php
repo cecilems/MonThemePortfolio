@@ -14,7 +14,7 @@ get_header();
         </p>
         <img class="guillemetd" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/quote-right-solid@2x.png" alt="guillemet">
     </div>
-    <img class="signature" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/CMS-jaune.png" alt="signature jaune">
+    <img class="signature" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/Signature-CMS-jaune.png" alt="signature jaune">
     <h3>Chargée de projet web, bilingue anglais</h3>
     <a class="btn" href="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/CV_CecileMS_2020.pdf">Télécharger mon CV</a>
 </div>

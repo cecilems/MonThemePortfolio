@@ -70,7 +70,7 @@ img {
 }
 
 .signature {
-  height: 50px;
+  height: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -219,7 +219,7 @@ nav a:hover {
 }
 
 .lead h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   margin: 0;
   color: white;
@@ -384,11 +384,27 @@ main {
   display: flex;
   align-items: center;
 }
+
 .think {
+  font-size: 2.8rem;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 30px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black,
+  
+  }
+
+  .contact a,
+  .adresse p{
+
+  font-weight: 500;
+  font-size: 2.1rem; 
+  line-height: 1.4;
+  padding: 0 20px 0 15px;
   text-align: right;
-  padding: 20px 20px 0 0;
-  line-height: 1;
+  text-shadow: 1px 1px 2px black, 0 0 1em black
 }
+
 .contactmail, 
 .adresse {
   display: flex;
