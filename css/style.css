@@ -32,10 +32,10 @@ img {
   }
 
 .logo {
-  margin: 20px 0 10px 0;
+  margin: 10px 0 10px 0;
   margin-left: auto;
   margin-right: auto;
-  max-height: 55px;
+  max-height: 50px;
 } 
 
 
@@ -248,8 +248,8 @@ nav a:hover {
 }
 
 .btn:hover  {
-  background: var(--text-color);
-  color: var(--tonic-color);
+  background: var(--tonic-color);
+  color: var(--text-color);
 }
 
 

@@ -26,8 +26,7 @@
   }
   
   .logo {
-
-    max-height: 65px;
+    max-height: 55px;
   } 
 
   .guillemetd {
@@ -50,14 +49,17 @@
   
   .competence {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 
   }
 
+  .competence ul {
+    font-size: 1.4rem;
+}
 
   .developpement{
 
-    margin-left: 40px;
+    margin-left: 0px;
     min-width: 300px;
 
   }
@@ -184,9 +186,7 @@
   .menu.open li:nth-child(n+4) { transition-delay: .6s;}
   .menu.open li:nth-child(n+5) { transition-delay: .7s;}
 
-  .menu h3 {
-    display: none;
-  }
+
 
   .menu ul {
     flex-direction: column;
