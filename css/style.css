@@ -386,36 +386,15 @@ main {
 }
 
 .think {
-  font-size: 2.8rem;
-  font-weight: 500;
-  text-align: left;
-  margin-left: 30px;
-  text-shadow: 1px 1px 2px black, 0 0 1em black,
-  
-  }
-
-  .contact a,
-  .adresse p{
-
-  font-weight: 500;
-  font-size: 2.1rem; 
+  padding: 20px 20px 70px 0;
   line-height: 1.4;
-  padding: 0 20px 0 15px;
+  font-weight: 500;
   text-align: right;
-  text-shadow: 1px 1px 2px black, 0 0 1em black
+  margin-right: 30px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 
-.contactmail, 
-.adresse {
-  display: flex;
-  flex-direction: column;
 
-}
-
-.adresse svg,
-.contactmail svg {
-  display: none;
-}
 
 .contact {
   background-image: url(http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/photoMtbe.jpg);
@@ -426,19 +405,22 @@ main {
   line-height: 2;
   margin-bottom: -30px;
   display: block;
-
+  text-shadow: 1px 1px 1px rgb(37, 37, 37), 0 0 1em var(--text-color);
   
 }
 
 .contact a,
-.adresse p{
-  color: white;
-
-  font-size: 1.8rem; 
-  line-height: 1.6;
-  padding: 0 15px 0 15px;
-  text-align: center;
+address{
+color: #e8e8e8;
+font-weight: 500;
+font-size: 2.1rem; 
+line-height: 1.4;
+padding: 0 20px 0 15px;
+text-align: right;
+text-shadow: 1px 1px 1px rgb(37, 37, 37), 0 0 1em var(--text-color);
 }
+
+
 
 
 
@@ -446,8 +428,6 @@ main {
   margin: 10px 0px;
   list-style: none;
   padding-inline-start: 30px;
-
-
 
 }
 
@@ -459,8 +439,6 @@ main {
   padding: 0 5px;
   margin: 10px 0px;
 }
-
-
 
 
 .reseau{
