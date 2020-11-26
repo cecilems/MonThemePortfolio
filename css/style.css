@@ -133,7 +133,7 @@ a {
 }
 
 p {
-  padding: 0px 10px 5px 15px;
+  padding: 0px 10px 0px 15px;
   margin-top: 0;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -386,12 +386,12 @@ main {
 }
 
 .think {
+  font-size: 2rem;
   padding: 20px 20px 70px 0;
   line-height: 1.4;
   font-weight: 500;
   text-align: right;
-  margin-right: 30px;
-  text-shadow: 1px 1px 2px black, 0 0 1em black;
+  text-shadow: 2px 2px 2px black, 0 1 2em black;
 }
 
 
@@ -411,13 +411,14 @@ main {
 
 .contact a,
 address{
-color: #e8e8e8;
 font-weight: 500;
-font-size: 2.1rem; 
+font-size: 1.8rem; 
 line-height: 1.4;
 padding: 0 20px 0 15px;
-text-align: right;
-text-shadow: 1px 1px 1px rgb(37, 37, 37), 0 0 1em var(--text-color);
+text-align: center;
+display: block;
+font-style: normal;
+color: white;
 }
 
 
@@ -425,10 +426,10 @@ text-shadow: 1px 1px 1px rgb(37, 37, 37), 0 0 1em var(--text-color);
 
 
 .contact ul {
-  margin: 10px 0px;
+  margin: 10px 20px 30px;
   list-style: none;
   padding-inline-start: 30px;
-
+  text-shadow: none;
 }
 
 .contact li{
@@ -446,6 +447,7 @@ text-shadow: 1px 1px 1px rgb(37, 37, 37), 0 0 1em var(--text-color);
   padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
+
 }
 
 /* Solution alternative pour placer les articles les uns à coté des autres avec l'espace de gouttière entre chaque article.
