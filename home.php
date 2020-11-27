@@ -16,7 +16,7 @@ get_header();
     </div>
     <img class="signature" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/Signature-CMS-jaune.png" alt="signature jaune">
     <h3>Chargée de projet web, bilingue anglais</h3>
-    <a class="btn" href="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/CV_CecileMS_2020.pdf">Télécharger mon CV</a>
+    <a class="btn" target="_blank" href="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/CV_CecileMS_2020.pdf">Télécharger mon CV</a>
 </div>
 
 <section class="qualites">
@@ -252,12 +252,13 @@ get_header();
 <section class="contact">
     <div class="think">&lt; Think Global &gt; <br/>&lt; ContAct local &gt;</div>
     <section class= "contactmail">
-     
+<!--     
             <ul>
                 <li>Nom</li>
                 <li>Email</li>
                 <li>Votre message</li>
             </ul>
+            -->
     </section>
     <section class="adresse">
         <address class="footer__adresse">40 rue Saint-Georges<br>25200 Montbéliard<br>
@@ -267,17 +268,17 @@ get_header();
     </section>
 
         <section class="reseau" >
-            <a href="https://fr.linkedin.com/in/cecilemaillardsalin">
+            <a target="_blank" href="https://fr.linkedin.com/in/cecilemaillardsalin">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40.001" height="40" viewBox="0 0 40.001 40">
                     <path id="linkedin-in-brands" d="M8.954,40.01H.661V13.3H8.954ZM4.8,9.661a4.826,4.826,0,1,1,4.8-4.848A4.843,4.843,0,0,1,4.8,9.661ZM39.992,40.01H31.717v-13c0-3.1-.063-7.072-4.312-7.072-4.312,0-4.972,3.366-4.972,6.848V40.01H14.149V13.3H22.1v3.643h.116a8.714,8.714,0,0,1,7.847-4.313C38.458,12.634,40,18.161,40,25.34V40.01Z" transform="translate(0 -0.01)" fill="#fefefe"/>
                 </svg>
             </a>
-            <a href="https://www.instagram.com/cecile.maillardsalin/">
+            <a target="_blank" href="https://www.instagram.com/cecile.maillardsalin/">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40.009" height="40" viewBox="0 0 40.009 40">
                     <path id="instagram-brands" d="M19.934,41.57A10.255,10.255,0,1,0,30.189,51.825,10.239,10.239,0,0,0,19.934,41.57Zm0,16.923A6.667,6.667,0,1,1,26.6,51.825a6.68,6.68,0,0,1-6.667,6.667ZM33,41.15a2.392,2.392,0,1,1-2.392-2.392A2.387,2.387,0,0,1,33,41.15Zm6.792,2.428c-.152-3.2-.884-6.043-3.231-8.381s-5.177-3.07-8.381-3.231c-3.3-.187-13.2-.187-16.5,0-3.2.152-6.034.884-8.381,3.222S.226,40.365.066,43.569c-.187,3.3-.187,13.2,0,16.5.152,3.2.884,6.043,3.231,8.381s5.177,3.07,8.381,3.231c3.3.187,13.2.187,16.5,0,3.2-.152,6.043-.884,8.381-3.231s3.07-5.177,3.231-8.381C39.981,56.77,39.981,46.88,39.793,43.578ZM35.527,63.616a6.75,6.75,0,0,1-3.8,3.8c-2.633,1.044-8.881.8-11.791.8s-9.167.232-11.791-.8a6.75,6.75,0,0,1-3.8-3.8c-1.044-2.633-.8-8.881-.8-11.791s-.232-9.167.8-11.791a6.75,6.75,0,0,1,3.8-3.8c2.633-1.044,8.881-.8,11.791-.8s9.167-.232,11.791.8a6.75,6.75,0,0,1,3.8,3.8c1.044,2.633.8,8.881.8,11.791S36.571,60.992,35.527,63.616Z" transform="translate(0.075 -31.825)" fill="#fefefe"/>
                 </svg>    
             </a>
-            <a href="https://www.facebook.com/cecile.maillardsalin" >   
+            <a target="_blank"href="https://www.facebook.com/cecile.maillardsalin" >   
                 <svg xmlns="http://www.w3.org/2000/svg" width="21.423" height="40" viewBox="0 0 21.423 40">
                 <path id="facebook-f-brands" d="M42.91,22.5l1.111-7.239H37.074v-4.7c0-1.98.97-3.911,4.081-3.911h3.158V.489A38.509,38.509,0,0,0,38.708,0c-5.72,0-9.459,3.467-9.459,9.744v5.517H22.89V22.5h6.359V40h7.826V22.5Z" transform="translate(-22.89)" fill="#fefefe"/>
             </svg></a>
