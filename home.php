@@ -92,7 +92,7 @@ get_header();
             </article>  
         </section>
 </section>
-
+<!--
 <h1 id="idportfolio">PORTFOLIO</h1>
 <section class="portfolio">
 
@@ -110,7 +110,7 @@ get_header();
          </article>
 
 </section>
-
+-->
 <h1 id="idexperience">Expérience</h1> 
 <section class="experience">
         <article>

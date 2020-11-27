@@ -341,7 +341,7 @@ main {
 .experience h3{
   text-align: left;
 }
-
+/*
 .portfolio {
   padding: 10px 0;
   text-align: center;
@@ -349,7 +349,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-
+*/
 .formation{
   display: flex;
   flex-wrap: wrap;
