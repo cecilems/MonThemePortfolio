@@ -3,7 +3,7 @@
 
 :root {
   --text-color: #565555;
-  --medium-color: #b4b4b4;
+  --medium-color: #6e6e6e;
   --light-color: #e8e8e8;  
   --tonic-color: #fedb3b;
 
@@ -38,28 +38,17 @@ img {
 } 
 
 
-.guillemet{
-  display: flex;
-}
-
-.guillemetd,
-.guillemetg{
-  height: 20px;
+.icon-quotes-left,
+.icon-quotes-right {
+  font-size: 3.6rem;
   color: var(--tonic-color);
-
+  padding:  0 10px;
 }
 
-.guillemetg {
-  
-  margin-left: 40px;
-}
 
-.guillemetd {
-  bottom: 85px;
-  right: 10vw;
-  display: flex;
-  align-self: flex-end;
-  margin-right: 40px;
+.icon-quotes-right {
+  float: right;
+  padding-left: 0;
 }
 
 .ronde {
@@ -215,6 +204,7 @@ nav a:hover {
   background-color: var(--text-color);
   color: white;
   position: relative;
+
 }
 
 .lead h3 {
@@ -230,7 +220,7 @@ nav a:hover {
   font-weight: 400;
   text-align: center;
   margin: 0;
-  padding: 15px 0px 15px 0px;
+  padding: 15px 20px;
   max-width: 700px;
 }
 
@@ -426,20 +416,22 @@ color: white;
   padding-inline-start: 30px;
   display: flex;
   justify-content: space-evenly;
+
 }
 
 
 .contact li{
-  font-weight: 600;
+
   padding: 0 5px;
   margin: 10px 0px;
+
 }
 
 
 .reseau{
   margin: 10px 10px 0 10px;
   padding: 20px 0;
-
+  font-size: 3.8rem; 
 }
 
 .reseau a:hover {

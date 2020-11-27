@@ -7,13 +7,10 @@ get_header();
 
 <div class="lead">
     <img class='ronde' src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/CecilemsprofilCarre.jpg" alt="photo Cecilemsprofil">
-    <div class="guillemet">
-        <img class="guillemetg" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/quote-left-solid-jaune.png" alt="guillemet">
-        <p>
-            Communicante diplômée d'école de commerce, traductrice au parcours axé sur l'international, je me forme désormais à la conception de sites web pour m'ouvrir à de nouvelles perspectives orientées Projet numérique.
+
+        <p><i class="icon-quotes-left"></i> 
+            Communicante diplômée d'école de commerce, traductrice au parcours axé sur l'international, je me forme désormais à la conception de sites web pour m'ouvrir à de nouvelles perspectives orientées Projet numérique.<i class="icon-quotes-right"></i> 
         </p>
-        <img class="guillemetd" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/quote-right-solid@2x.png" alt="guillemet">
-    </div>
     <img class="signature" src="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/Signature-CMS-jaune.png" alt="signature jaune">
     <h3>Chargée de projet web, bilingue anglais</h3>
     <a class="btn" target="_blank" href="http://localhost/20201117testPortfolio/wp-content/uploads/2020/11/CV_CecileMS_2020.pdf">Télécharger mon CV</a>
