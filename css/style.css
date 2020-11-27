@@ -426,27 +426,25 @@ color: white;
 
 
 .contact ul {
-  margin: 10px 20px 30px;
   list-style: none;
   padding-inline-start: 30px;
-  text-shadow: none;
+  display: flex;
+  justify-content: space-evenly;
 }
-/*
+
+
 .contact li{
-  display: table;
-  background-color: rgb(255,252,255, .7);
-  color: #565555;
   font-weight: 600;
   padding: 0 5px;
   margin: 10px 0px;
 }
-*/
+
 
 .reseau{
   margin: 10px 10px 0 10px;
   padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
+
+
 
 }
 
