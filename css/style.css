@@ -3,7 +3,6 @@
 
 :root {
   --text-color: #565555;
-  --dark-color: #707070;
   --medium-color: #b4b4b4;
   --light-color: #e8e8e8;  
   --tonic-color: #fedb3b;
@@ -94,7 +93,7 @@ color : white;
 line-height: 1;
 font-weight: 200;
 text-transform: uppercase;
-background-color: var(--dark-color);
+background-color: var(--text-color);
 padding: 10px;
 text-align: center;
 border-top: solid 5px var(--tonic-color);
@@ -151,7 +150,7 @@ p {
 
 body > .lead,
 body > footer {
-  background-color: var(--dark-color);
+  background-color: var(--text-color);
   color: white;
   font-size: 1.2rem;
 }
@@ -422,9 +421,6 @@ color: white;
 }
 
 
-
-
-
 .contact ul {
   list-style: none;
   padding-inline-start: 30px;
@@ -444,11 +440,12 @@ color: white;
   margin: 10px 10px 0 10px;
   padding: 20px 0;
 
-
-
 }
 
-
+.reseau a:hover {
+  color: black;
+  font-size: larger;
+}
 
 /* Solution alternative pour placer les articles les uns à coté des autres avec l'espace de gouttière entre chaque article.
 
