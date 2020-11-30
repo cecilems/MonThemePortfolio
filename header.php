@@ -29,7 +29,7 @@
             <nav class="menu">
                 <ul>
                     <li><a href="#idcompetences">Compétences</a></li>
-                    <li><a href="#idportfolio">Portfolio</a></li>
+                  <!--  <li><a href="#idportfolio">Portfolio</a></li> -->
                     <li><a href="#idexperience">Expérience</a></li>
                     <li><a href="#idformation">Formation</a></li>
                     <li><a href="#idcontact">Contact</a></li>
